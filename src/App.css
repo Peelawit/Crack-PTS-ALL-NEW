@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%; /* ครอบคลุมความกว้างทั้งหมดของหน้าจอ */
+  /* overflow-x: auto; เพิ่ม scrollbar หาก element มากเกินไป */
+}
+
+.time-bar {
+  width: 50px;
+  height: 80px;
+  position: relative;
+}
+
+.bar {
+  height: 100%;
+  width: 100%;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.time {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: white;
+}
